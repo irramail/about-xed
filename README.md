@@ -13,3 +13,14 @@ For --xed the xed tool is needed. Here is how to install it:
   
 but XED version: [12.0.1-72-gd57a3bd]  
   you can find it here [xed directory]/../build/obj/wkit/examples/obj/xed  
+```shell
+mkdir build
+cd build
+../xed/mfile.py
+../xed/mfile.py examples       (optional)
+../xed/mfile.py doc            (optional, requires doxygen)
+../xed/mfile.py doc-build      (optional, requires doxygen)
+../xed/mfile.py install        (optional)
+../xed/mfile.py install zip    (optional, makes a zip file)
+../xed/mfile.py examples install zip    (optional, makes a zip file that includes the examples)
+```
