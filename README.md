@@ -13,6 +13,7 @@ For --xed the xed tool is needed. Here is how to install it:
   
 but XED version: [12.0.1-72-gd57a3bd]  
   you can find it here [xed directory]/../build/obj/wkit/examples/obj/xed  
+  after this: https://intelxed.github.io/build-manual/  
 ```shell
 mkdir build
 cd build
