@@ -1,3 +1,9 @@
+```shell
+sudo perf record
+sudo chown user:user perf.data
+perf script --insn-trace --xed
+```
+
 link https://stuff.mit.edu/afs/sipb/contrib/linux/tools/perf/Documentation/build-xed.txt
 
 For --xed the xed tool is needed. Here is how to install it:  
